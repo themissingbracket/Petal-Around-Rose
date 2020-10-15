@@ -70,22 +70,35 @@
   margin: 0;
 }
 
-.game__board .notfication__container {
+.game__board .notification__container {
   display: flex;
-  padding: 40px;
+  height: 50px;
   margin-bottom: 10px;
   width: 100%;
   justify-content: center;
 }
 
-/* .game__board .notfication__container .notification {
-    color: white;
-} */
-
-/* .game__board .notfication__container .notification.success {
-  background-color: #2ecc71;
+.game__board .notification__container .notification {
+  width:100%;
+  height:100%;
+  border-radius: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
 }
 
-.game__board .notfication__container .notification.error {
-  background-color: #e74c3c;
+/* .game__board .notification__container .notification.none {
 } */
+
+.game__board .notification__container .notification.success {
+  background-color: #2ecc71;
+  opacity: 1
+}
+
+.game__board .notification__container .notification.error {
+  background-color: #e74c3c;
+  opacity: 1;
+}
