@@ -20,6 +20,10 @@
 
 }
 
+.game__board .dice__container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .game__board .control__container .button {
     border-radius: 10px;
     padding: 10px 50px;
@@ -35,3 +39,53 @@
     color: #ecf0f1;
 }
 
+.game__board .input__container {
+  display: flex;
+  color: #ecf0f1;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;
+}
+
+.game__board .input__container .petal__label{
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.game__board .input__container .petal__input{
+  height: 40px;
+  border: 2px solid #95a5a6;
+  border-radius: 10px;
+  padding-left: 5px;
+  outline: none;
+  background: transparent;
+  color: #ecf0f1;
+  -moz-appearance: textfield;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.game__board .input__container .petal__input::-webkit-outer-spin-button,
+.game__board .input__container .petal__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.game__board .notfication__container {
+  display: flex;
+  padding: 40px;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* .game__board .notfication__container .notification {
+    color: white;
+} */
+
+/* .game__board .notfication__container .notification.success {
+  background-color: #2ecc71;
+}
+
+.game__board .notfication__container .notification.error {
+  background-color: #e74c3c;
+} */
