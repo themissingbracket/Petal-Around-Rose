@@ -1,0 +1,37 @@
+.game__board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game__board .dice__container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+/* Button Control */
+.game__board .control__container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.game__board .control__container .button {
+    border-radius: 10px;
+    padding: 10px 50px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    transition: all 200ms ease-in-out;
+    margin: 5px;
+}
+
+.game__board .control__container .button:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #ecf0f1;
+}
+
